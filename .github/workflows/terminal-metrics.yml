@@ -5,34 +5,30 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Generate metrics
+      - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Minimal terminal layout
           template: terminal
           base: header
 
-          # Display
           config_display: large
           config_timezone: America/New_York
           config_output: svg
           filename: metrics.svg
 
-          # Only ONE light plugin
-          plugin_activity: yes
-          plugin_activity_limit: 3
-          plugin_activity_days: 7
-          plugin_activity_filter: commit
-
-          # Explicitly disable everything else
+          plugin_activity: no
           plugin_lines: no
           plugin_languages: no
           plugin_stars: no
@@ -45,7 +41,7 @@ jobs:
           plugin_contributors: no
           plugin_isocalendar: no
 
-      - name: Push metrics to output branch
+      - name: Commit metrics.svg
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
