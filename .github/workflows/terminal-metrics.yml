@@ -8,7 +8,6 @@ on:
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 5   # ⬅️ hard stop
 
     steps:
       - name: Generate metrics
