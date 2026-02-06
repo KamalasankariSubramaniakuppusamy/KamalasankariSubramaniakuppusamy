@@ -3,22 +3,16 @@ Hi 👋 I’m Kamala
 <br/>
 <sub>My name is long enough to need its own TL;DR — Kamala (most people skim my name before they skim my profile)</sub>
 </h2>
-
-<p align="center">
-<b>TL;DR</b> — I entered Computer Science late, built my credit from scratch through real systems, research, and teaching, and now work at the intersection of software engineering, AI/ML, and learning how to reason with machines.
-</p>
-
 ---
 
 <!-- PACMAN CONTRIBUTION GRAPH -->
 <div align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  <img src="assets/profile.png" alt="Kamala coding illustration" width="400" />
 </div>
-
 ---
 
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif" />
+  <img src="assets/profile.png" alt="Kamala coding illustration" width="400" />
 </div>
 
 ---
@@ -75,8 +69,9 @@ That paper was <b>published at IEEE</b> and won a <b>Best Paper Award</b>.
 ---
 
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif" />
+  <img src="assets/profile.png" alt="Kamala coding illustration" width="400" />
 </div>
+
 
 ---
 
@@ -155,13 +150,6 @@ This is where I learned how real software behaves — messy inputs, scale, trade
   <li>Agentic AI systems</li>
   <li>Explainable & safer ML</li>
 </ul>
-
----
-
-<!-- SPOTIFY -->
-<div align="center">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?count=5" alt="Spotify recently played" />
-</div>
 
 ---
 
