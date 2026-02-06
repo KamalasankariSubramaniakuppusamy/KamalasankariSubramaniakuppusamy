@@ -1,38 +1,40 @@
 name: Generate Terminal Metrics
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # runs daily
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 5   # ⬅️ hard stop
 
     steps:
-      - name: Generate metrics SVG
+      - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # REQUIRED
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
+          # Minimal terminal layout
           template: terminal
-          base: header, activity
+          base: header
 
+          # Display
           config_display: large
           config_timezone: America/New_York
           config_output: svg
           filename: metrics.svg
 
+          # Only ONE light plugin
           plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: issue, pr, commit
+          plugin_activity_limit: 3
+          plugin_activity_days: 7
+          plugin_activity_filter: commit
 
-          plugin_lines: yes
-          plugin_lines_sections: base
-
+          # Explicitly disable everything else
+          plugin_lines: no
           plugin_languages: no
           plugin_stars: no
           plugin_followup: no
@@ -40,6 +42,9 @@ jobs:
           plugin_topics: no
           plugin_people: no
           plugin_reactions: no
+          plugin_habits: no
+          plugin_contributors: no
+          plugin_isocalendar: no
 
       - name: Push metrics to output branch
         uses: crazy-max/ghaction-github-pages@v4
