@@ -14,23 +14,29 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Generate metrics SVG
+      - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
+          # Output
+          filename: metrics.svg
+          output_action: commit
+          output_condition: always
+          committer_branch: output
+
+          # Layout
           template: terminal
           base: header
-
           config_display: large
           config_timezone: America/New_York
           config_output: svg
-          filename: metrics.svg
 
+          # Keep it fast & stable
           plugin_activity: no
-          plugin_lines: no
           plugin_languages: no
+          plugin_lines: no
           plugin_stars: no
           plugin_followup: no
           plugin_repositories: no
@@ -40,11 +46,3 @@ jobs:
           plugin_habits: no
           plugin_contributors: no
           plugin_isocalendar: no
-
-      - name: Commit metrics.svg
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
