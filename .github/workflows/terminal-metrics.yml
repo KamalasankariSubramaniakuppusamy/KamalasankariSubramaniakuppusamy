@@ -2,7 +2,7 @@ name: Generate Terminal Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   
+    - cron: "0 0 * * *"   # runs daily
   workflow_dispatch:
 
 jobs:
@@ -10,50 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
+          # REQUIRED
           user: KamalasankariSubramaniakuppusamy
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # Base
           template: terminal
           base: header, activity
 
-       
           config_display: large
           config_timezone: America/New_York
+          config_output: svg
+          filename: metrics.svg
 
-          
-          config_theme: dark
-          config_colors_background: "0B0B0B"
-          config_colors_text: "FFFFFF"
-          config_colors_accent: "E84A8A"
-
-        
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, commit
 
-          
           plugin_lines: yes
           plugin_lines_sections: base
 
-          
-          plugin_stars: no
-          plugin_followers: no
           plugin_languages: no
-          plugin_tweets: no
+          plugin_stars: no
+          plugin_followup: no
           plugin_repositories: no
+          plugin_topics: no
+          plugin_people: no
+          plugin_reactions: no
 
-         
-          config_output: svg
-          filename: metrics.svg
-
-      - name: Push to output branch
+      - name: Push metrics to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
