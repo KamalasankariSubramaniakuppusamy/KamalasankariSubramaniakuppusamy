@@ -16,8 +16,11 @@
 </p>
 
 <!-- Bio -->
-<p style="font-size: 15px; color: #8e2a4d; line-height: 1.8; max-width: 620px; margin: 18px auto;">
-  Graduate student in Computer Science focused on AI/ML and large language models ◇ Researching practical failure modes in LLM reasoning with an emphasis on context window limitations ✦ Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms ◇ Currently exploring Reinforcement Learning and Graph ML
+## ✦ About ✦
+  ✦ I'm Graduate student in Computer Science focused on AI/ML and large language models 
+  ✦ Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
+  ✦ Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
+  ✦ Currently exploring Reinforcement Learning and Graph ML
 </p>
 
 <p align="center">
@@ -47,33 +50,33 @@
 </div>
 
 <!-- Tech Stack -->
-## ✦ Tech Stack
+## ✦ Tech Stack ✦
 
 <div align="center">
 
-### Languages
+### ✦ Languages ✦
 <img src="https://img.shields.io/badge/Python-ed8ea9?style=for-the-badge&logo=python&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/C-f1a2b7?style=for-the-badge&logo=c&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Java-e57da2?style=for-the-badge&logo=oracle&logoColor=white" />
 
-### ML / Data
+### ✦ ML / Data ✦
 <img src="https://img.shields.io/badge/NumPy-f6b4c3?style=for-the-badge&logo=numpy&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Pandas-ed8ea9?style=for-the-badge&logo=pandas&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Scikit--Learn-f1a2b7?style=for-the-badge&logo=scikit-learn&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Matplotlib-e57da2?style=for-the-badge&logo=plotly&logoColor=white" />
 <img src="https://img.shields.io/badge/Seaborn-df6b93?style=for-the-badge&logo=python&logoColor=white" />
 
-### Deep Learning
+### ✦ Deep Learning ✦
 <img src="https://img.shields.io/badge/TensorFlow-f6b4c3?style=for-the-badge&logo=tensorflow&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/PyTorch-ed8ea9?style=for-the-badge&logo=pytorch&logoColor=8e2a4d" />
 
-### Engineering & Tools
+### ✦ Engineering & Tools ✦
 <img src="https://img.shields.io/badge/Docker-f1a2b7?style=for-the-badge&logo=docker&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/AWS-e57da2?style=for-the-badge&logo=amazon-aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Postman-f6b4c3?style=for-the-badge&logo=postman&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/LaTeX-ed8ea9?style=for-the-badge&logo=latex&logoColor=8e2a4d" />
 
-### Web
+### ✦ Web ✦
 <img src="https://img.shields.io/badge/React-f1a2b7?style=for-the-badge&logo=react&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/HTML5-e57da2?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-df6b93?style=for-the-badge&logo=css3&logoColor=white" />
@@ -102,7 +105,7 @@
   />
 </div>
  </p> <!-- Footer -->
-✦ Let’s Connect ✦
+## ✦ Let’s Connect ✦
 <p style="color: #b12b4f; font-size: 14px;"> Open to collaborations in AI/ML, LLM reasoning, agents, reinforcement learning, and graph-based learning systems </p>
 
 <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile+Views&color=f6b4c3&style=for-the-badge" alt="Profile Views" />
