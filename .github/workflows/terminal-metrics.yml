@@ -3,87 +3,83 @@ name: Generate Terminal Metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
-
-permissions:
-  contents: write
+    - cron: "0 */12 * * *"   # twice a day
+  push:
+    branches:
+      - main
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
-      - name: Generate terminal-style metrics
+      - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Output configuration
+          # === OUTPUT ===
           filename: metrics.svg
-          output_action: commit
-          output_condition: always
-          committer_branch: output
-
-          # Template & layout
           template: terminal
-          base: header
+          config_output: svg
           config_display: large
           config_timezone: America/New_York
-          config_output: svg
+          config_animations: true
+          config_base64: true
+          config_padding: 0, 12 + 12%
 
-          # Disable heavy / unstable plugins
+          # === REMOVE NOISE ===
+          base: ""
           plugin_activity: no
           plugin_languages: no
-          plugin_lines: no
           plugin_stars: no
           plugin_followup: no
           plugin_repositories: no
-          plugin_topics: no
           plugin_people: no
           plugin_reactions: no
           plugin_habits: no
           plugin_contributors: no
           plugin_isocalendar: no
 
-          # ── Bratty terminal styling ──
+          # === CUSTOM TERMINAL CONTENT (ONLY THIS LINE SHOWS) ===
+          query: |
+            echo "kamala@metrics:~$ build • break • fix"
+
+          # === PINK / BRATZ PALETTE ===
           extras_css: |
             svg {
-              background: #0b0b0f;
-            }
-
-            text {
-              font-family: "JetBrains Mono", monospace;
-              fill: #f5f5f7;
-              font-size: 14px;
+              background: linear-gradient(135deg, #8e2a4d, #c72b5e, #df6b93);
             }
 
             .terminal {
-              rx: 16;
-              ry: 16;
-              filter: drop-shadow(0 0 22px rgba(255, 77, 166, 0.28));
+              border-radius: 14px;
+              box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+              font-family: "JetBrains Mono", monospace;
+            }
+
+            .terminal-header {
+              background: #1a1a1a;
+              color: #f6b4c3;
+            }
+
+            .terminal-body {
+              color: #fdf6f8;
             }
 
             .prompt {
-              fill: #ff4da6;
-              font-weight: 600;
+              color: #f1a2b7;
             }
 
             .command {
-              fill: #f5f5f7;
-            }
-
-            .accent {
-              fill: #d36c9f;
+              color: #ffffff;
             }
 
             .cursor {
-              fill: #ff4da6;
-              animation: blink 1.2s infinite;
+              background-color: #db4f7d;
             }
 
-            @keyframes blink {
-              0%, 50% { opacity: 1; }
-              51%, 100% { opacity: 0; }
-            }
+          # === COMMIT RESULT ===
+          output_action: commit
+          committer_message: "chore: update terminal metrics"
