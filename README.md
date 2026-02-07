@@ -17,10 +17,13 @@
 
 <!-- Bio -->
 ## ✦ About ✦
-  -- I'm Graduate student in Computer Science focused on AI/ML and large language models 
-  -- Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
-  -- Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
-  --Currently exploring Reinforcement Learning and Graph ML
+  # I'm Graduate student in Computer Science focused on AI/ML and large language models 
+  
+  # Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
+  
+  # Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
+  
+  # Currently exploring Reinforcement Learning and Graph ML
 
 
 <p align="center">
@@ -66,17 +69,17 @@
 <img src="https://img.shields.io/badge/Matplotlib-e57da2?style=for-the-badge&logo=plotly&logoColor=white" />
 <img src="https://img.shields.io/badge/Seaborn-df6b93?style=for-the-badge&logo=python&logoColor=white" />
 
-### ✦ Deep Learning ✦
+### **✦ Deep Learning ✦**
 <img src="https://img.shields.io/badge/TensorFlow-f6b4c3?style=for-the-badge&logo=tensorflow&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/PyTorch-ed8ea9?style=for-the-badge&logo=pytorch&logoColor=8e2a4d" />
 
-### ✦ Engineering & Tools ✦
+### **✦ Engineering & Tools ✦**
 <img src="https://img.shields.io/badge/Docker-f1a2b7?style=for-the-badge&logo=docker&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/AWS-e57da2?style=for-the-badge&logo=amazon-aws&logoColor=white" />
 <img src="https://img.shields.io/badge/Postman-f6b4c3?style=for-the-badge&logo=postman&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/LaTeX-ed8ea9?style=for-the-badge&logo=latex&logoColor=8e2a4d" />
 
-### ✦ Web ✦
+### **✦ Web ✦**
 <img src="https://img.shields.io/badge/React-f1a2b7?style=for-the-badge&logo=react&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/HTML5-e57da2?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-df6b93?style=for-the-badge&logo=css3&logoColor=white" />
@@ -89,7 +92,7 @@
 </p>
 
 <!-- Currently -->
-## ✦ Currently
+## **✦ Currently**
 
 - **Research:** LLM Reasoning, Context Windows, AI Agents  
 - **Learning:** Reinforcement Learning, Graph ML  
@@ -97,7 +100,8 @@
 - **Interests:** Clean Design, Minimal Interfaces
   
 <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
-## ✦ Contribution Graph
+
+## ** ✦ Contribution Graph ✦ **
 
 <div align="center">
   <img
