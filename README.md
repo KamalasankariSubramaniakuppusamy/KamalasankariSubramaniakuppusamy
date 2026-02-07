@@ -2,11 +2,11 @@
 
 ###
 <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/KamalasankariSubramaniakuppusamy/KamalasankariSubramaniakuppusamy/output/metrics.svg"
-    alt="terminal metrics"
-    width="800"
-  />
+ <img
+  src="https://raw.githubusercontent.com/KamalasankariSubramaniakuppusamy/KamalasankariSubramaniakuppusamy/output/metrics.svg?v=2"
+  alt="terminal metrics"
+  width="800"
+/>
 </div>
 
 
