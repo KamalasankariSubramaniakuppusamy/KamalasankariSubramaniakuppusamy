@@ -26,16 +26,16 @@
 
 <!-- Social Links -->
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile">
+  <a href="https://www.linkedin.com/in/kamalasankari/">
     <img src="./Assets/linkedin-badge.svg" alt="LinkedIn" />
   </a>
-  <a href="https://medium.com/@yourprofile">
+  <a href="https://medium.com/@iamkamalamskls">
     <img src="./Assets/medium-badge.svg" alt="Medium" />
   </a>
-  <a href="https://yourname.github.io">
+  <a href="https://yourname.github.io](https://kamalasankarisubramaniakuppusamy.github.io/">
     <img src="./Assets/website-badge.svg" alt="Website" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:iamkamalamskls@gmail.com">
     <img src="./Assets/email-badge.svg" alt="Email" />
   </a>
 </p>
