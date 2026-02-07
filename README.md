@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="./assets/header.svg" alt="header" width="100%" />
+<img src="./Assets/header.svg" alt="header" width="100%" />
 
 <!-- Typing Intro (SVG – GitHub Safe) -->
 <h1 align="center">
