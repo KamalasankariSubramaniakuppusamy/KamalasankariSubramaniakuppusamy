@@ -72,14 +72,31 @@
 
 ### Languages
 <img src="https://img.shields.io/badge/Python-ed8ea9?style=for-the-badge&logo=python&logoColor=8e2a4d" />
-<img src="https://img.shields.io/badge/JavaScript-f6b4c3?style=for-the-badge&logo=javascript&logoColor=8e2a4d" />
-<img src="https://img.shields.io/badge/TypeScript-f1a2b7?style=for-the-badge&logo=typescript&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/C-f1a2b7?style=for-the-badge&logo=c&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/Java-e57da2?style=for-the-badge&logo=oracle&logoColor=white" />
 
-### Frameworks & Tools
-<img src="https://img.shields.io/badge/React-f6b4c3?style=for-the-badge&logo=react&logoColor=8e2a4d" />
-<img src="https://img.shields.io/badge/Node.js-ed8ea9?style=for-the-badge&logo=node.js&logoColor=8e2a4d" />
-<img src="https://img.shields.io/badge/Docker-e57da2?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-f1a2b7?style=for-the-badge&logo=figma&logoColor=8e2a4d" />
+### ML / Data
+<img src="https://img.shields.io/badge/NumPy-f6b4c3?style=for-the-badge&logo=numpy&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/Pandas-ed8ea9?style=for-the-badge&logo=pandas&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/Scikit--Learn-f1a2b7?style=for-the-badge&logo=scikit-learn&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/Matplotlib-e57da2?style=for-the-badge&logo=plotly&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-df6b93?style=for-the-badge&logo=python&logoColor=white" />
+
+### Deep Learning
+<img src="https://img.shields.io/badge/TensorFlow-f6b4c3?style=for-the-badge&logo=tensorflow&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/PyTorch-ed8ea9?style=for-the-badge&logo=pytorch&logoColor=8e2a4d" />
+
+### Engineering & Tools
+<img src="https://img.shields.io/badge/Docker-f1a2b7?style=for-the-badge&logo=docker&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/AWS-e57da2?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/Postman-f6b4c3?style=for-the-badge&logo=postman&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/LaTeX-ed8ea9?style=for-the-badge&logo=latex&logoColor=8e2a4d" />
+
+### Web
+<img src="https://img.shields.io/badge/React-f1a2b7?style=for-the-badge&logo=react&logoColor=8e2a4d" />
+<img src="https://img.shields.io/badge/HTML5-e57da2?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-df6b93?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-f6b4c3?style=for-the-badge&logo=javascript&logoColor=8e2a4d" />
 
 </div>
 
@@ -94,7 +111,7 @@
 const currentFocus = {
   research: ["LLM Reasoning", "Context Windows", "AI Agents"],
   learning: ["Reinforcement Learning", "Graph ML"],
-  building: ["Research Tooling", "AI Systems"],
+  building: ["Research Tooling", "End-to-End AI Systems"],
   interests: ["Clean Design", "Minimal Interfaces"]
 };
 <p align="center"> <img src="./assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
@@ -107,6 +124,6 @@ const currentFocus = {
 
 <img src="./assets/footer.svg" alt="footer" width="100%" />
 
-<sub>✦ Crafted with code, curiosity, and intent ◇</sub>
+<sub>✦ Crafted with intent, curiosity, and clean systems ◇</sub>
 
 </div> ```
