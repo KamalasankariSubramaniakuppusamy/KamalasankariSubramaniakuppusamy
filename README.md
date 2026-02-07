@@ -12,7 +12,7 @@
 </h1>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="80%" />
+  <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
 <!-- Bio -->
@@ -21,27 +21,27 @@
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="80%" />
+  <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
 <!-- Social Links -->
 <p align="center">
   <a href="https://linkedin.com/in/yourprofile">
-    <img src="./assets/linkedin-badge.svg" alt="LinkedIn" />
+    <img src="./Assets/linkedin-badge.svg" alt="LinkedIn" />
   </a>
   <a href="https://medium.com/@yourprofile">
-    <img src="./assets/medium-badge.svg" alt="Medium" />
+    <img src="./Assets/medium-badge.svg" alt="Medium" />
   </a>
   <a href="https://yourname.github.io">
-    <img src="./assets/website-badge.svg" alt="Website" />
+    <img src="./Assets/website-badge.svg" alt="Website" />
   </a>
   <a href="mailto:your.email@example.com">
-    <img src="./assets/email-badge.svg" alt="Email" />
+    <img src="./Assets/email-badge.svg" alt="Email" />
   </a>
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="80%" />
+  <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
 <!-- Stats -->
@@ -62,7 +62,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="80%" />
+  <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
 <!-- Tech Stack -->
@@ -101,13 +101,12 @@
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="80%" />
+  <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
 <!-- Currently -->
 ## ◇ Currently
 
-```js
 const currentFocus = {
   research: ["LLM Reasoning", "Context Windows", "AI Agents"],
   learning: ["Reinforcement Learning", "Graph ML"],
@@ -122,7 +121,7 @@ const currentFocus = {
 
 <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile+Views&color=f6b4c3&style=for-the-badge" alt="Profile Views" />
 
-<img src="./assets/footer.svg" alt="footer" width="100%" />
+<img src="./Assets/footer.svg" alt="footer" width="100%" />
 
 <sub>✦ Crafted with intent, curiosity, and clean systems ◇</sub>
 
