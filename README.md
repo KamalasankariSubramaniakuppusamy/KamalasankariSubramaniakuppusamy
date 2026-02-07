@@ -4,23 +4,26 @@
 <img src="./assets/header.svg" alt="header" width="100%" />
 
 <!-- Live Typewriter Intro -->
-<h1 align="center">
-  <span id="typewriter" style="
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    color: #E57DA2;
-  "></span>
-  <span id="cursor" style="
-    display: inline-block;
-    width: 8px;
-    height: 26px;
-    background: #E57DA2;
-    margin-left: 6px;
-    border-radius: 4px;
-    animation: blink 1s infinite;
-  "></span>
+<h1>
+  <img src="https://readme-typing-svg.herokuapp.com?
+    font=Space+Grotesk
+    &weight=600
+    &size=32
+    &duration=2000
+    &pause=800
+    &color=E57DA2
+    &center=true
+    &vCenter=true
+    &width=600
+    &lines=
+      Hi%2C+I%27m+Kamala;
+      I%27m+a+CS+Grad+Student;
+      I%27m+an+AI%2FML+Researcher;
+      I+study+LLM+reasoning;
+      I+work+on+context+window+limits
+  " />
 </h1>
+
 
 <!-- Cursor Animation -->
 <style>
