@@ -1,44 +1,30 @@
-name: Generate Terminal Metrics
+name: Generate Metrics
 
 on:
   schedule:
-    - cron: "0 6 * * *" # daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # OUTPUT
-          filename: metrics.svg
           template: terminal
-          config_output: svg
+          base: header
+
           config_display: large
           config_timezone: America/New_York
-          config_animations: false   # IMPORTANT: no looping
-          config_base64: true
+          config_output: svg
+          filename: metrics.svg
 
-          # BASE
-          base: header
-          base_indepth: false
-          base_hireable: false
-
-          # DISABLE HEAVY / BUGGY PLUGINS
-          plugin_activity: false
-          plugin_languages: false
-          plugin_repositories: false
-          plugin_stars: false
-          plugin_followup: false
-          plugin_people: false
-          plugin_topics: false
-          plugin_habits: false
-          plugin_contributors: false
-          plugin_isocalendar: false
+          plugin_activity: no
+          plugin_languages: no
+          plugin_stars: no
+          plugin_people: no
+          plugin_repositories: no
