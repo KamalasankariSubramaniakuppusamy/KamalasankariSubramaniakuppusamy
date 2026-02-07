@@ -50,7 +50,10 @@
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dracula&bg_color=ffffff&title_color=e57da2&text_color=8e2a4d&icon_color=f6b4c3&border_color=f1a2b7&border_radius=15"
+  src="<img
+  src="https://github-readme-stats.vercel.app/api?username=KamalasankariSubramaniakuppusamy&show_icons=true&theme=dracula&bg_color=ffffff&title_color=e57da2&text_color=8e2a4d&icon_color=f6b4c3&border_color=f1a2b7&border_radius=15"
+/>
+"
   width="48%"
 />
 
