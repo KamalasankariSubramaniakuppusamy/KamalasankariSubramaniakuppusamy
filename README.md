@@ -100,7 +100,8 @@
 - **Interests:** Clean Design, Minimal Interfaces
   
 <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
-✦ Contribution Graph
+## ✦ Contribution Graph
+
 <div align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=KamalasankariSubramaniakuppusamy&bg_color=ffffff&color=8e2a4d&line=e57da2&point=f6b4c3&area=true&area_color=f1a2b7&border_color=f1a2b7&radius=15"
