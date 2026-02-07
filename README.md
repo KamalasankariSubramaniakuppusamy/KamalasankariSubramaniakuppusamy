@@ -17,14 +17,11 @@
 
 <!-- Bio -->
 ## ✦ About ✦
-  ✦ I'm Graduate student in Computer Science focused on AI/ML and large language models 
-  
-  ✦ Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
-  
-  ✦ Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
-  
-  ✦ Currently exploring Reinforcement Learning and Graph ML
-</p>
+  -- I'm Graduate student in Computer Science focused on AI/ML and large language models 
+  -- Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
+  -- Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
+  --Currently exploring Reinforcement Learning and Graph ML
+
 
 <p align="center">
   <img src="./Assets/divider.svg" alt="divider" width="80%" />
@@ -53,16 +50,16 @@
 </div>
 
 <!-- Tech Stack -->
-## ✦ Tech Stack ✦
+## **✦ Tech Stack ✦**
 
 <div align="center">
 
-### ✦ Languages ✦
+### **✦ Languages ✦**
 <img src="https://img.shields.io/badge/Python-ed8ea9?style=for-the-badge&logo=python&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/C-f1a2b7?style=for-the-badge&logo=c&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Java-e57da2?style=for-the-badge&logo=oracle&logoColor=white" />
 
-### ✦ ML / Data ✦
+### **✦ ML / Data ✦**
 <img src="https://img.shields.io/badge/NumPy-f6b4c3?style=for-the-badge&logo=numpy&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Pandas-ed8ea9?style=for-the-badge&logo=pandas&logoColor=8e2a4d" />
 <img src="https://img.shields.io/badge/Scikit--Learn-f1a2b7?style=for-the-badge&logo=scikit-learn&logoColor=8e2a4d" />
