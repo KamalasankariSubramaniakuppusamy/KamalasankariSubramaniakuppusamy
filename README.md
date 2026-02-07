@@ -44,20 +44,6 @@
   <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
-<!-- Stats -->
-## ✦ Stats & Highlights
-
-<div align="center">
-
-
-  <img
-  src="https://github-readme-stats.vercel.app/api?username=KamalasankariSubramaniakuppusamy&show_icons=true&theme=dracula&bg_color=ffffff&title_color=e57da2&text_color=8e2a4d&icon_color=f6b4c3&border_color=f1a2b7&border_radius=15"
-  width="48%"
-/>
-
-</div>
-
-
 
 <img
   src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dracula&background=ffffff&stroke=f1a2b7&ring=e57da2&fire=db4f7d&currStreakLabel=8e2a4d&sideLabels=c72b5e&currStreakNum=8e2a4d&sideNums=8e2a4d&border=f1a2b7&border_radius=15"
