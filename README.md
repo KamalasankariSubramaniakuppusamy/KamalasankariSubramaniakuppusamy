@@ -45,14 +45,16 @@
 </p>
 
 <!-- Stats -->
-## ◇ Stats & Highlights
+## ✦ Stats & Highlights
 
 <div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api?username=KamalasankariSubramaniakuppusamy&show_icons=true&theme=dracula&bg_color=ffffff&title_color=e57da2&text_color=8e2a4d&icon_color=f6b4c3&border_color=f1a2b7&border_radius=15"
-  width="48%"
-/>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=KamalasankariSubramaniakuppusamy&bg_color=ffffff&color=8e2a4d&line=e57da2&point=f6b4c3&area=true&area_color=f1a2b7&border_color=f1a2b7&radius=15"
+    width="95%"
+  />
+</div>
+
 
 
 <img
@@ -106,7 +108,7 @@
 </p>
 
 <!-- Currently -->
-## ◇ Currently
+## ✦ Currently
 
 const currentFocus = {
   research: ["LLM Reasoning", "Context Windows", "AI Agents"],
@@ -117,7 +119,7 @@ const currentFocus = {
 <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
 ✦ Contribution Graph
 <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&bg_color=ffffff&color=8e2a4d&line=e57da2&point=f6b4c3&area=true&area_color=f1a2b7&border_color=f1a2b7&radius=15" width="95%" /> </div> <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Footer -->
-✦ Let’s Connect ◇
+✦ Let’s Connect ✦
 <p style="color: #b12b4f; font-size: 14px;"> Open to collaborations in AI/ML, LLM reasoning, agents, reinforcement learning, and graph-based learning systems </p>
 
 <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile+Views&color=f6b4c3&style=for-the-badge" alt="Profile Views" />
