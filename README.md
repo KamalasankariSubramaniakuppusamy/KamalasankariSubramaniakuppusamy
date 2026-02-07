@@ -18,8 +18,11 @@
 <!-- Bio -->
 ## ✦ About ✦
   ✦ I'm Graduate student in Computer Science focused on AI/ML and large language models 
+  
   ✦ Researching practical failure modes in LLM reasoning with an emphasis on context window limitations 
+  
   ✦ Former software engineering intern who built and shipped end-to-end systems including data tooling, voice agents, notetaking assistants, and production web platforms 
+  
   ✦ Currently exploring Reinforcement Learning and Graph ML
 </p>
 
