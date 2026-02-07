@@ -112,12 +112,11 @@
 <!-- Currently -->
 ## ✦ Currently
 
-const currentFocus = {
-  research: ["LLM Reasoning", "Context Windows", "AI Agents"],
-  learning: ["Reinforcement Learning", "Graph ML"],
-  building: ["Research Tooling", "End-to-End AI Systems"],
-  interests: ["Clean Design", "Minimal Interfaces"]
-};
+- **Research:** LLM Reasoning, Context Windows, AI Agents  
+- **Learning:** Reinforcement Learning, Graph ML  
+- **Building:** Research Tooling, End-to-End AI Systems  
+- **Interests:** Clean Design, Minimal Interfaces
+  
 <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
 ✦ Contribution Graph
 <div align="center">
