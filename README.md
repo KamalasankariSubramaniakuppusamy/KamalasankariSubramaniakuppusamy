@@ -46,10 +46,6 @@
 
 </div>
 
-<p align="center">
-  <img src="./Assets/divider.svg" alt="divider" width="80%" />
-</p>
-
 <!-- Tech Stack -->
 ## ✦ Tech Stack
 
