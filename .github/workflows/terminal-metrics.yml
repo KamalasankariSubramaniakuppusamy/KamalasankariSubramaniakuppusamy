@@ -1,85 +1,44 @@
 name: Generate Terminal Metrics
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"   # twice a day
-  push:
-    branches:
-      - main
+    - cron: "0 6 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: Generate metrics SVG
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           user: KamalasankariSubramaniakuppusamy
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # === OUTPUT ===
+          # OUTPUT
           filename: metrics.svg
           template: terminal
           config_output: svg
           config_display: large
           config_timezone: America/New_York
-          config_animations: true
+          config_animations: false   # IMPORTANT: no looping
           config_base64: true
-          config_padding: 0, 12 + 12%
 
-          # === REMOVE NOISE ===
-          base: ""
-          plugin_activity: no
-          plugin_languages: no
-          plugin_stars: no
-          plugin_followup: no
-          plugin_repositories: no
-          plugin_people: no
-          plugin_reactions: no
-          plugin_habits: no
-          plugin_contributors: no
-          plugin_isocalendar: no
+          # BASE
+          base: header
+          base_indepth: false
+          base_hireable: false
 
-          # === CUSTOM TERMINAL CONTENT (ONLY THIS LINE SHOWS) ===
-          query: |
-            echo "kamala@metrics:~$ build • break • fix"
-
-          # === PINK / BRATZ PALETTE ===
-          extras_css: |
-            svg {
-              background: linear-gradient(135deg, #8e2a4d, #c72b5e, #df6b93);
-            }
-
-            .terminal {
-              border-radius: 14px;
-              box-shadow: 0 20px 40px rgba(0,0,0,0.45);
-              font-family: "JetBrains Mono", monospace;
-            }
-
-            .terminal-header {
-              background: #1a1a1a;
-              color: #f6b4c3;
-            }
-
-            .terminal-body {
-              color: #fdf6f8;
-            }
-
-            .prompt {
-              color: #f1a2b7;
-            }
-
-            .command {
-              color: #ffffff;
-            }
-
-            .cursor {
-              background-color: #db4f7d;
-            }
-
-          # === COMMIT RESULT ===
-          output_action: commit
-          committer_message: "chore: update terminal metrics"
+          # DISABLE HEAVY / BUGGY PLUGINS
+          plugin_activity: false
+          plugin_languages: false
+          plugin_repositories: false
+          plugin_stars: false
+          plugin_followup: false
+          plugin_people: false
+          plugin_topics: false
+          plugin_habits: false
+          plugin_contributors: false
+          plugin_isocalendar: false
