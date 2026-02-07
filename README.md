@@ -1,6 +1,14 @@
 <h1 align="center">Hey 👋What's Up?</h1>
 
 ###
+<div align="center">
+  <img
+    src="https://raw.githubusercontent.com/KamalasankariSubramaniakuppusamy/KamalasankariSubramaniakuppusamy/output/metrics.svg"
+    alt="terminal metrics"
+    width="800"
+  />
+</div>
+
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
