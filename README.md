@@ -44,12 +44,6 @@
   <img src="./Assets/divider.svg" alt="divider" width="80%" />
 </p>
 
-
-<img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dracula&background=ffffff&stroke=f1a2b7&ring=e57da2&fire=db4f7d&currStreakLabel=8e2a4d&sideLabels=c72b5e&currStreakNum=8e2a4d&sideNums=8e2a4d&border=f1a2b7&border_radius=15"
-  width="48%"
-/>
-
 </div>
 
 <p align="center">
