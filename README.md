@@ -113,9 +113,9 @@ const currentFocus = {
   building: ["Research Tooling", "End-to-End AI Systems"],
   interests: ["Clean Design", "Minimal Interfaces"]
 };
-<p align="center"> <img src="./assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
+<p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Contribution Graph -->
 ✦ Contribution Graph
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&bg_color=ffffff&color=8e2a4d&line=e57da2&point=f6b4c3&area=true&area_color=f1a2b7&border_color=f1a2b7&radius=15" width="95%" /> </div> <p align="center"> <img src="./assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Footer -->
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&bg_color=ffffff&color=8e2a4d&line=e57da2&point=f6b4c3&area=true&area_color=f1a2b7&border_color=f1a2b7&radius=15" width="95%" /> </div> <p align="center"> <img src="./Assets/divider.svg" alt="divider" width="80%" /> </p> <!-- Footer -->
 ✦ Let’s Connect ◇
 <p style="color: #b12b4f; font-size: 14px;"> Open to collaborations in AI/ML, LLM reasoning, agents, reinforcement learning, and graph-based learning systems </p>
 
@@ -123,6 +123,6 @@ const currentFocus = {
 
 <img src="./Assets/footer.svg" alt="footer" width="100%" />
 
-<sub>✦ Crafted with intent, curiosity, and clean systems ◇</sub>
+<sub>✦ If my work aligns with your interests, feel free to reach out. ◇</sub>
 
-</div> ```
+</div> 
